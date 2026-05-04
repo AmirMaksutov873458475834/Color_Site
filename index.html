@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="layout">
+        <header class="Style">
+            <h1>MySite</h1>
+            <nav>
+                <a href="">Me</a>
+                <a href="">about</a>
+                <a href="">links</a>
+            </nav>
+        </header>
+        <main>
+            <div id="continer">
+                <h2>You Walcome</h2>
+                <p>This my site with animate 😀</p>
+                <div id="card">
+                    <p>card 1</p>
+                    <button onclick="showMassage()">color 1</button>
+                </div>
+                <div id="card">
+                    <p>card 2</p>
+                    <button onclick="changeColor()">color 2</button>
+                </div>
+            </div>
+        </main>
+        <footer class="Style">
+            <h3>Testing Site</h3>
+        </footer>
+    <script>
+        function showMassage(){
+            document.body.style.background = "-webkit-linear-gradient(179deg, #49378b,#a43737,#dd8435)";
+        }
+        function changeColor(){
+            document.body.style.background = "-webkit-linear-gradient(113deg, #4d3899,#6a238b,#3676dd)";
+        }
+    </script>
+    </div>
+</body>
+</html>
